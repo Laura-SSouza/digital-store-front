@@ -1,7 +1,11 @@
+import Layout from "./Layout";
+
 const ProductViewPage = () => {
     return (
-        <h1>Product View Page</h1>
-    )
+        <Layout>
+            <h1>Product View Page</h1>
+        </Layout>    
+    );
 };
 
-export default ProductViewPage
+export default ProductViewPage;

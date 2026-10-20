@@ -10,7 +10,7 @@ const App = () => {
       <Route path="/products" element={<ProductListingPage />} />
       <Route path="/products/:id" element={<ProductViewPage />} />
     </Routes>
-  )
+  );
 };
 
-export default App
+export default App;
