@@ -1,6 +1,8 @@
+import Logo from "./Logo";
+
 const Footer = () => {
     return (
-        <footer>footer</footer>
+        <footer><Logo mode="footer" /></footer>
     );
 };
 
