@@ -4,7 +4,7 @@ import logoFooter from "../../assets/logo-footer.svg";
 const Logo = ({mode = "header"}) => {
     const icon = mode == "footer" ? logoFooter : logoHeader;
     
-    return <img src={icon} alt={mode} width={253} height={44} />;
+    return <img src={icon} alt="Digital Store" className="mt-[42] w-63.25 h-11" />;
 };
 
 export default Logo;
