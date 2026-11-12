@@ -17,9 +17,11 @@ const Header = () => {
                         className="underline decoration-solid underline-offset-3 decoration-1 text-dark-gray-2 hover:text-dark-gray-3">
                             Cadastre-se
                         </Link>
-                        <button className="bg-primary hover:bg-tertiary text-white font-bold w-28.5 h-10 text-[14px] rounded-lg">
-                            <Link to="/login">Entrar</Link>
-                        </button>
+                        <Link to="/login"
+                        className="bg-primary hover:bg-tertiary text-white
+                        font-bold w-28.5 h-10 text-[14px] rounded-lg flex items-center justify-center">
+                            Entrar
+                        </Link>
                     </div>
                     
                     <img src={miniCart} alt="Carrinho de compras" className="w-8.25 h-7.5 ml-13.5" />

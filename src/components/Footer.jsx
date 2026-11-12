@@ -18,9 +18,9 @@ const Footer = () => {
                     </p>
                     
                     <div className="flex items-start gap-7">
-                        <a href="https://facebook.com" target="_blank" rel="noreferrer"><img src={facebook} alt="facebook" /></a>
-                        <a href="https://instagram.com" target="_blank" rel="noreferrer"><img src={instagram} alt="instagram" /></a>
-                        <a href="https://twitter.com" target="_blank" rel="noreferrer"><img src={twitter} alt="twitter" /></a>
+                        <a href="https://facebook.com" target="_blank" rel="noreferrer"><img src={facebook} alt="Facebook" /></a>
+                        <a href="https://instagram.com" target="_blank" rel="noreferrer"><img src={instagram} alt="Instagram" /></a>
+                        <a href="https://twitter.com" target="_blank" rel="noreferrer"><img src={twitter} alt="Twitter" /></a>
                     </div>
                 </div>
 
@@ -62,7 +62,7 @@ const Footer = () => {
 
             </div>
 
-            <div className="pb-5.5 mx-auto max-w-310 flex flex-col gap-5">
+            <div className="pb-5.5 mx-auto max-w-311 flex flex-col gap-5">
                 <hr className="text-light-gray-2 opacity-30" />
                 <p className="flex justify-center text-xs">&copy; {new Date().getFullYear()} Digital Store</p>
             </div>
